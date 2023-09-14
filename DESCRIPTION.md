@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>vcam.ai</id>
-    <version>1.0.2308.2506</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-vcam.ai/tree/v1.0.2308.2506</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>VCam.ai</title>
-    <authors>SplitmediaLabs Ltd.</authors>
-    <projectUrl>https://vcam.ai/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-vcam.ai@e1a9a1bfb02ee0f63cab88d11b782097d5228964/vcam.ai.png</iconUrl>
-    <copyright>© 2023 SplitmediaLabs, Ltd. All Rights Reserved.</copyright>
-    <licenseUrl>https://vcam.ai/terms</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Project is closed source</projectSourceUrl>-->
-    <docsUrl>https://help.vcam.ai/</docsUrl>
-    <mailingListUrl>https://www.reddit.com/r/xsplitofficial/</mailingListUrl>
-    <!--<bugTrackerUrl>No public issue tracker is available</bugTrackerUrl>-->
-    <tags>vcam.ai webcam virtual camera cam background blur watermark screenshot 64-bit freemium cross-platform</tags>
-    <summary>Webcam Background Removal for Teams</summary>
-    <description><![CDATA[
+
 ---
 
 ### [choco://vcam.ai](choco://vcam.ai)
@@ -88,13 +67,3 @@ For future upgrade operations, consider opting into Chocolatey's `useRememberedA
 ```shell
 choco feature enable --name="'useRememberedArgumentsForUpgrades'"
 ```
-]]></description>
-    <releaseNotes></releaseNotes>
-    <dependencies>
-      <dependency id="chocolatey-os-dependency.extension" version="0.0.1" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
