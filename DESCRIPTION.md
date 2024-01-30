@@ -1,12 +1,3 @@
-
----
-
-### [choco://vcam.ai](choco://vcam.ai)
-
-To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support](https://community.chocolatey.org/packages/choco-protocol-support)
-
----
-
 ## VCam.ai: Webcam Background Software
 
 VCam.ai (formerly known as XSplit VCam) makes cutting edge background removal and blurring possible with any webcam, without the need for expensive green screens, and complicated lighting setups.
